@@ -1,0 +1,38 @@
+{
+  "__comment": "Đây chỉ là file placeholder. Hãy thay thế bằng workflow thực tế của bạn.",
+  "last_node_id": "13",
+  "last_link_id": 0,
+  "nodes": {
+    "9": {
+      "type": "CLIPTextEncode",
+      "inputs": {
+        "text": ""
+      }
+    },
+    "10": {
+      "type": "CLIPTextEncode",
+      "inputs": {
+        "text": ""
+      }
+    },
+    "11": {
+      "type": "EmptyLatentImage",
+      "inputs": {
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    "12": {
+      "type": "Seed",
+      "inputs": {
+        "seed": 0
+      }
+    },
+    "13": {
+      "type": "KSampler",
+      "inputs": {
+        "steps": 30
+      }
+    }
+  }
+}
